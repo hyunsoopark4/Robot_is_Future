@@ -3,8 +3,8 @@
 > **PS4 Controller-based Omnidirectional Forklift Robot**
 
 ![Project Banner](https://via.placeholder.com/800x400?text=Please+Upload+Your+Robot+Photo+Here)
-*(여기에 완성된 로봇 사진을 드래그 앤 드롭하여 넣으세요)*
-<img width="2136" height="2137" alt="image" src="https://github.com/user-attachments/assets/1d3b0e9b-a108-4caf-898a-6af1b7d61178" />
+
+<img width="213.6" height="213.7" alt="image" src="https://github.com/user-attachments/assets/1d3b0e9b-a108-4caf-898a-6af1b7d61178" />
 
 ## 📖 Overview
 이 프로젝트는 **ESP32**와 **메카넘 휠(Mecanum Wheel)**을 활용한 무선 조종 지게차입니다. **PS4 컨트롤러(DualShock 4)**를 통해 블루투스로 제어하며, 전후좌우 이동뿐만 아니라 제자리 회전, 대각선 이동 등 옴니지향성 기동이 가능합니다. 
