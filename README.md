@@ -92,6 +92,3 @@
 7.  Press the **EN** button on ESP32 to reset and start Bluetooth pairing.
 8.  Connect your PS4 Controller (Hold Share + PS button to pair).
 
----
-**Developed by [Hyunsoo Park](https://github.com/hyunsoopark4)**
-*Make, Code, and Innovate.*
