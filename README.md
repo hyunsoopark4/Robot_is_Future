@@ -11,7 +11,7 @@
 
 ## ✨ Key Features
 * **🎮 PS4 컨트롤러 제어:** `Bluepad32` 라이브러리를 활용한 저지연 블루투스 연결
-* **🔄 메카넘 휠 구동:** 4개의 N20 모터 독립 제어를 통한 전방향(Omnidirectional) 이동
+* **🔄 메카넘 휠 구동:** 4개의 TT 모터 독립 제어를 통한 전방향(Omnidirectional) 이동
 * **🏗️ 리프트 메커니즘:** 스텝모터(28BYJ-48)를 활용한 포크 상승/하강 구현
 * **🔋 전원 시스템:** 18650 배터리(2S) 및 TB6612FNG 모터 드라이버 사용
 * **3️⃣ 3D Printed Chassis:** 직접 설계 및 3D 프린팅된 부품 사용 (`.3mf` 포함)
@@ -21,11 +21,11 @@
 | :--- | :--- | :--- |
 | **MCU** | ESP32 DevKit V1 | 1 |
 | **Motor Driver** | TB6612FNG (Dual Motor Driver) | 2 |
-| **Driving Motor** | N20 Gear Motor (6V, 100~150RPM recommended) | 4 |
+| **Driving Motor** | Arduino TT Motor | 4 |
 | **Lift Motor** | 28BYJ-48 Stepper Motor + ULN2003 Driver | 1 |
 | **Wheels** | 60mm Mecanum Wheels | 4 |
 | **Power** | 18650 Li-ion Battery (2S, 7.4V) | 2 |
-| **Regulator** | LM2596 (Buck Converter, 6V output) | 1 |
+| **Regulator** | LTC-3780 | 1 |
 | **Controller** | PS4 DualShock 4 | 1 |
 
 ## 🔌 Pinout & Wiring
@@ -56,8 +56,7 @@
 | **Triangle (△)** | Lift UP | 포크 상승 |
 | **Cross (X)** | Lift DOWN | 포크 하강 |
 
-*(아래에 업로드해주신 컨트롤러 매핑 이미지를 넣어주세요)*
-![Controller Mapping](https://via.placeholder.com/600x400?text=Upload+Controller+Image+Here)
+![Controller Mapping] <img width="945.5" height="634" alt="image" src="https://github.com/user-attachments/assets/3148e54c-8c0f-4ad1-a98e-7d30bb5ffc06" />
 
 ## 🖨️ 3D Models
 이 프로젝트의 기구부는 3D 프린터로 제작되었습니다.
