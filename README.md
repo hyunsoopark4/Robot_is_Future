@@ -62,7 +62,7 @@
 이 프로젝트의 기구부는 3D 프린터로 제작되었습니다.
 * **File Format:** `.3mf` (Bambu Lab / Prusa Slicer compatible)
 * **Included Parts:** Chassis, Wheels mounts, Fork mechanism
-* 📂 [Download 3D Files](./Mecanum%20wheel%20forklinft%20for%20N20.3mf)
+<img width="1411" height="977" alt="image" src="https://github.com/user-attachments/assets/1a8492d7-8360-4f0a-9b6c-4185832efdc2" />
 
 > **Preview:**
 > (GitHub은 STL 파일 뷰어를 지원합니다. 3mf 파일을 STL로 변환하여 업로드하면 인터랙티브 뷰어를 사용할 수 있습니다. 혹은 슬라이서 스크린샷을 여기에 넣으세요.)
