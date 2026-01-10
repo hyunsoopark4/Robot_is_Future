@@ -65,7 +65,20 @@
 > **Preview:**
 <img width="1411" height="977" alt="image" src="https://github.com/user-attachments/assets/1a8492d7-8360-4f0a-9b6c-4185832efdc2" />
 
+## 🚀 Upcoming Upgrade: N20 Motor Retrofit
+현재 버전은 아두이노 TT 모터(노란색 기어드 모터)를 기반으로 제작되었으나, 더욱 정밀한 제어를 위해 **N20 메탈 기어 모터**로 업그레이드할 예정입니다.
 
+### 🛑 Why Upgrade? (TT Motor Limitations)
+* **불규칙한 데드존(Deadzone):** 저가형 TT 모터는 개체마다 기동 시작 PWM 값이 달라(60~90), 저속 주행 시 특정 바퀴만 회전하지 않는 문제가 발생합니다.
+* **정밀 제어의 어려움:** 지게차 특성상 미세한 움직임이 필수적인데, TT 모터는 마찰력으로 인해 저속에서 부드러운 제어가 어렵습니다.
+
+### 🛠️ Solution: N20 Motor & Custom Chassis
+이를 해결하기 위해 다음과 같은 업그레이드를 진행하고 있습니다.
+1.  **Motor Change:** **N20 Gear Motor (6V)**로 교체하여 메탈 기어의 우수한 내구성과 거의 없는 데드존(Deadzone)을 확보합니다.
+2.  **Custom Modeling:** 기존 TT 모터용 섀시 대신, N20 모터 규격에 최적화된 **전용 프레임(Chassis)**을 직접 모델링하여 적용합니다.
+3.  **Result:** 4개 바퀴의 완벽한 속도 동기화와 부드러운 옴니지향성 주행을 구현합니다.
+
+*(N20 버전의 3D 모델링 파일과 코드는 추후 업데이트될 예정입니다.)*
 
 ## 💻 How to Install
 1.  Install **Arduino IDE**.
