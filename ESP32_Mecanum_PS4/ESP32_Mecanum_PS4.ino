@@ -22,7 +22,7 @@ const int STEPS_PER_REV = 2048;
 
 // 남는 핀 할당 (IN1, IN3, IN2, IN4 순서 중요!)
 // ULN2003 드라이버에 연결할 핀들: 15, 2, 4, 16
-Stepper forkStepper(STEPS_PER_REV, 15, 4, 2, 16); 
+Stepper forkStepper(STEPS_PER_REV, 15, 2, 4, 16); 
 
 // ================================================================
 // 3. 설정 변수
@@ -56,7 +56,7 @@ void driveMotor(int channel, int in1, int in2, int speed) {
 // 지게차 포크 제어 함수 (스텝모터)
 void processForkLift(ControllerPtr ctl) {
   // 스텝모터 속도 설정 (RPM). 너무 빠르면 탈조나서 안 돔. 10~15 추천.
-  forkStepper.setSpeed(15); 
+  forkStepper.setSpeed(10); 
 
   // 세모(Triangle) 버튼: 0x0008 -> 올리기
   if (ctl->buttons() & 0x0008) {
